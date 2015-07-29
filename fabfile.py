@@ -4,8 +4,8 @@
 from fabric.api import env, sudo
 
 # modify hosts and user
-env.hosts=[""]
-env.user=[""]
+env.hosts = [""]
+env.user = ""
 
 def add_user(user, group=""):
     '''
