@@ -8,4 +8,4 @@ Modify `env.hosts` and `env.user` in `fabfile.py` .
 
 Then run command to add user with `sudo` authority:
 
-`fab add_user:name=cara,group=sudo`
+`fab add_user:user=cara,group=sudo`
